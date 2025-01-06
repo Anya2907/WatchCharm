@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/WatchCharm/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/WatchCharm/assets/favicon-VcFmnwNB.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watch Charm</title>
     <!-- Google Fonts Links -->
@@ -18,7 +22,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <!-- Own Style Link -->
-    <link rel="stylesheet" crossorigin href="/WatchCharm/assets/index-COtQkGnV.css">
+    <link rel="stylesheet" crossorigin href="/WatchCharm/assets/index-BgDHQXoK.css">
   </head>
   <body>
     <header class="header-page-wrapper">
@@ -70,7 +74,7 @@
           </a>
         </li>
       </ul>
-      <button class="menu-burger-btn">
+      <button class="menu-burger-btn js-open-menu">
         <svg class="menu-burger-icon" width="34" height="34">
           <use href="../img/sprite-icons/icons.svg#icon-menu-burger"></use>
         </svg>
@@ -81,7 +85,75 @@
 
 
     <main>
+      <section class="hero">
+  <div class="container">
+    <h1 class="main-title">Welcome to our collection of premium watches</h1>
+    <p class="header-text">
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+    <div></div>
+  </div>
+</section>
+
       <!-- Loads the specified .html file -->
     </main>
+
+    <div class="mobile-menu js-menu-container">
+  <div class="mobile-menu-container">
+    <button class="mobile-menu-btn-close js-close-menu" aria-expanded="false">
+      <svg class="mobile-menu-close-icon" width="34" height="34">
+        <use href="../img/sprite-icons/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">Home</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">About Us</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">Catalog</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">Sale</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">Reviews</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a class="mobile-menu-list-link" href="">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="mobile-menu-list-icons">
+      <li class="mobile-list-item-icons">
+        <a class="mobile-menu-list-link-icons" href="">
+          <svg class="mobile-list-item-icon" width="18" height="18">
+            <use href="../img/sprite-icons/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-list-item-icons">
+        <a class="mobile-menu-list-link-icons" href="">
+          <svg class="mobile-list-item-icon" width="18" height="18">
+            <use href="../img/sprite-icons/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-list-item-icons">
+        <a class="mobile-menu-list-link-icons" href="">
+          <svg class="mobile-list-item-icon" width="18" height="18">
+            <use href="../img/sprite-icons/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+    <script src="./main.js"></script>
   </body>
 </html>
