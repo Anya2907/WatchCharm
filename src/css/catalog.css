@@ -1,0 +1,124 @@
+.catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.catalog-picture-wrapper-hidden {
+  display: none;
+}
+
+.catalog-pictures-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 40px;
+}
+
+.catalog-picture-wrapper {
+  width: 100%;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 24px 28px;
+}
+
+.catalog-picture {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+}
+
+.catalog-picture-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+
+  margin-bottom: 8px;
+}
+
+.catalog-picture-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-btn {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  background-color: #3350e9;
+  min-width: 160px;
+  height: 48px;
+  padding-left: 44px;
+  padding-right: 44px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  background-color: #1f3cd4;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .catalog-picture-wrapper-hidden {
+    display: block;
+  }
+
+  .catalog-pictures-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 16px;
+    row-gap: 32px;
+
+    margin-bottom: 0px;
+  }
+
+  .catalog-picture-wrapper {
+    width: calc((100% - 16px) / 2);
+    padding: 24px 32px;
+  }
+
+  .catalog-picture {
+    margin-bottom: 20px;
+  }
+
+  .catalog-picture-title {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .catalog-btn-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .catalog-pictures-container {
+    column-gap: 23px;
+  }
+
+  .catalog-picture-wrapper {
+    width: calc((100% - 2 * 23px) / 3);
+  }
+}

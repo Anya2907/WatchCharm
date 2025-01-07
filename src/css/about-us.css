@@ -1,0 +1,105 @@
+.about-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container-about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-title-text-wrapper {
+  padding: 40px 20px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+.section-title-abous-us {
+  margin-bottom: 28px;
+}
+
+.about-us-text-wrapper {
+  margin-bottom: 40px;
+}
+
+.about-us-text-top {
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about-us-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+
+  background-color: #3350e9;
+  border-radius: 16px;
+  border: none;
+  height: 48px;
+  min-width: 160px;
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+.about-us-btn:hover,
+.about-us-btn:focus {
+  background-color: #1f3cd4;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .container-about-us {
+    gap: 40px;
+  }
+
+  .about-us-title-text-wrapper {
+    padding: 80px 60px;
+    border-radius: 50px;
+  }
+
+  .section-title-abous-us {
+    margin-bottom: 40px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-us-text-wrapper {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .container-about-us {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .about-us-title-text-wrapper {
+    max-width: 580px;
+    padding: 80px 60px;
+    border-radius: 50px;
+  }
+}
