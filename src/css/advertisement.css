@@ -83,3 +83,34 @@
     margin-bottom: 32px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .add {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .add-wrapper {
+    display: flex;
+    gap: 140px;
+    align-items: flex-start;
+    background-image: linear-gradient(
+        rgba(0.9529, 0.9529, 0.9529, 0.8),
+        rgba(0.9529, 0.9529, 0.9529, 0.8)
+      ),
+      url(../img/advertisement/add-desktop.jpg);
+
+    padding: 83px 80px;
+  }
+
+  @media (min-resolution: 192pdi) {
+    .add-wrapper {
+      background-image: url(../img/advertisement/add-desktop@2x.jpg);
+    }
+  }
+
+  .add-text {
+    max-width: 690px;
+    margin-bottom: 0px;
+  }
+}
