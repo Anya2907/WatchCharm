@@ -1,0 +1,85 @@
+.add {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.add-wrapper {
+  background-color: #0c0c0c;
+  background-image: linear-gradient(
+      rgba(0.9529, 0.9529, 0.9529, 0.8),
+      rgba(0.9529, 0.9529, 0.9529, 0.8)
+    ),
+    url(../img/advertisement/add-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 60px 28px;
+}
+
+@media (min-resolution: 192pdi) {
+  .add-wrapper {
+    background-image: linear-gradient(
+        rgba(0.9529, 0.9529, 0.9529, 0.8),
+        rgba(0.9529, 0.9529, 0.9529, 0.8)
+      ),
+      url(../img/advertisement/add-mobile@2x.jpg);
+  }
+}
+
+.add-text {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.add-accent-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.add-link {
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  width: 160px;
+  padding: 15px 43px;
+
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .add {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .add-wrapper {
+    background-image: linear-gradient(
+        rgba(0.9529, 0.9529, 0.9529, 0.8),
+        rgba(0.9529, 0.9529, 0.9529, 0.8)
+      ),
+      url(../img/advertisement/add-tablet.jpg);
+
+    padding: 80px 64px;
+  }
+
+  @media (min-resolution: 192pdi) {
+    .add-wrapper {
+      background-image: url(../img/advertisement/add-tablet@2x.jpg);
+    }
+  }
+
+  .add-text {
+    font-size: 48px;
+    line-height: 0.92;
+
+    margin-bottom: 32px;
+  }
+}
