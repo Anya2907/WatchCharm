@@ -1,0 +1,130 @@
+.contact-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-us-form-wrapper {
+  border-radius: 30px;
+  padding: 48px 28px;
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.contact-us-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+.contact-us-input {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 18px;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  background-color: transparent;
+}
+
+.contact-us-input::placeholder {
+  color: #0c0c0c;
+}
+
+.contact-us-textarea {
+  width: 100%;
+  height: 84px;
+  padding: 12px 14px;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 28px;
+}
+
+.contact-us-textarea::placeholder {
+  color: #0c0c0c;
+}
+
+.contact-us-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  min-width: 134px;
+  height: 42px;
+  background-color: #3350e9;
+  border: none;
+  border-radius: 16px;
+}
+
+.contact-us-btn:hover,
+.contact-us-btn:focus {
+  background-color: #1f3cd4;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contact-us-form-wrapper {
+    border-radius: 50px;
+    padding: 50px 122px;
+    margin-bottom: 40px;
+  }
+
+  .contact-us-text {
+    font-size: 15px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+
+  .contact-us-input {
+    font-size: 15px;
+    line-height: 1.25;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    background-color: transparent;
+  }
+
+  .contact-us-textarea {
+    height: 90px;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+
+  .contact-us-btn {
+    min-width: 160px;
+    height: 52px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact-us-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+
+  .contact-us-form-wrapper {
+    max-width: 580px;
+    padding: 50px 60px;
+    margin-bottom: 0px;
+  }
+}
