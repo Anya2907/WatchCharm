@@ -49,7 +49,7 @@ import headerIconBurger from '../img/sprite-icons/icons.svg#icon-menu-burger';
 const headerBurger = document.querySelector('.headerBurger');
 
 function creareMarkupBurger() {
-  terurn`<svg class="menu-burger-icon" width="34" height="34">
+  return `<svg class="menu-burger-icon" width="34" height="34">
           <use href="${headerIconBurger}"></use>
         </svg>`;
 }
