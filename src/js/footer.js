@@ -4,7 +4,7 @@ import footerFacebook from '../img/sprite-icons/icons.svg#icon-facebook';
 const footerElemIconFacebook = document.querySelector('.footerIconFacebook');
 
 function createMarkupFooterIconFacebook() {
-  return ` <a class="list-link-icons footer-list-link-icons" href="">
+  return `<a class="list-link-icons footer-list-link-icons" href="">
                   <svg class="list-item-icon" width="18" height="18">
                     <use
                       href="${footerFacebook}"
@@ -39,7 +39,7 @@ const footerElemFooterIconYoutube =
   document.querySelector('.footerIconYoutube');
 
 function createMarkupFooterIconYoutube() {
-  return ` <a class="list-link-icons footer-list-link-icons" href="">
+  return `<a class="list-link-icons footer-list-link-icons" href="">
                   <svg class="list-item-icon" width="18" height="18">
                     <use
                       href="${footerYoutube}"

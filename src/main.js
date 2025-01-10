@@ -6,6 +6,7 @@ import './js/sale.js';
 import './js/reviews.js';
 import './js/contact.js';
 import './js/footer.js';
+import './js/mobile-menu.js';
 
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
