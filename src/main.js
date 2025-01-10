@@ -2,6 +2,7 @@ import './js/hero.js';
 import './js/about.js';
 import './js/catalog.js';
 import './js/sale.js';
+import './js/reviews.js';
 import './js/contact.js';
 
 (() => {
