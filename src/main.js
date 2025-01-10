@@ -1,5 +1,6 @@
 import './js/hero.js';
 import './js/about.js';
+import './js/catalog.js';
 
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
