@@ -21,7 +21,7 @@ const headerIconInstagram = document.querySelector('.headerIconInstagram');
 function reateMarkupIconInstagram() {
   return `<a class="list-link-icons menu-list-link-icons" href="">
             <svg class="list-item-icon" width="20" height="20">
-              <use href="${headerIconInstagram}"></use>
+              <use href="${iconInstagram}"></use>
             </svg>
           </a>`;
 }
@@ -42,3 +42,16 @@ function createMarkupIconYoutube() {
 }
 
 headerIconYoutube.innerHTML = createMarkupIconYoutube();
+
+// ============== Burger =====================
+import headerIconBurger from '../img/sprite-icons/icons.svg#icon-menu-burger';
+
+const headerBurger = document.querySelector('.headerBurger');
+
+function creareMarkupBurger() {
+  terurn`<svg class="menu-burger-icon" width="34" height="34">
+          <use href="${headerIconBurger}"></use>
+        </svg>`;
+}
+
+headerBurger.innerHTML = creareMarkupBurger();
