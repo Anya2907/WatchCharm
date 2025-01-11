@@ -57,6 +57,23 @@
   margin-bottom: auto;
 }
 
+.mobile-menu-list-item {
+  position: relative;
+}
+
+.mobile-menu-list-item:hover .mobile-menu-list-link::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100%;
+  background-color: #3350e9;
+  width: 8px;
+  height: 8px;
+  margin-top: 2px;
+}
+
 .mobile-menu-list-link {
   font-weight: 500;
   font-size: 14px;

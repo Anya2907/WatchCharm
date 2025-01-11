@@ -47,8 +47,9 @@
   border: none;
   height: 48px;
   min-width: 160px;
-  padding-left: 37px;
-  padding-right: 37px;
+  padding: 15px 37px;
+  /* padding-left: 37px;
+  padding-right: 37px; */
 }
 
 .about-us-btn:hover,
