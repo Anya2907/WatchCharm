@@ -1,12 +1,10 @@
-import './js/header.js';
+import './js/icons.js';
 import './js/hero.js';
 import './js/about.js';
 import './js/catalog.js';
 import './js/sale.js';
 import './js/reviews.js';
 import './js/contact.js';
-import './js/footer.js';
-import './js/mobile-menu.js';
 
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
