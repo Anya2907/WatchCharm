@@ -1,4 +1,9 @@
 import icons from '../img/sprite-icons/icons.svg';
+import iconFacebook from '../img/sprite-icons/icons.svg#icon-facebook';
+import iconInstagram from '../img/sprite-icons/icons.svg#icon-instagram';
+import iconYoutube from '../img/sprite-icons/icons.svg#icon-youtube';
+import iconBurger from '../img/sprite-icons/icons.svg#icon-menu-burger';
+import iconClose from '../img/sprite-icons/icons.svg#icon-close';
 
 // ================ IconFacebook header =============
 const headerElemIconFacebook = document.querySelector('.headerIconFacebook');
@@ -6,7 +11,7 @@ const headerElemIconFacebook = document.querySelector('.headerIconFacebook');
 function createMarkupIconFacebook() {
   return `<a class="list-link-icons menu-list-link-icons" href="">
             <svg class="list-item-icon" width="20" height="20">
-              <use href="${icons}#icon-facebook"></use>
+              <use href="${iconFacebook}"></use>
             </svg>
           </a>`;
 }
@@ -19,7 +24,7 @@ const headerIconInstagram = document.querySelector('.headerIconInstagram');
 function reateMarkupIconInstagram() {
   return `<a class="list-link-icons menu-list-link-icons" href="">
             <svg class="list-item-icon" width="20" height="20">
-              <use href="${icons}#icon-instagram"></use>
+              <use href="${iconInstagram}"></use>
             </svg>
           </a>`;
 }
@@ -32,7 +37,7 @@ const headerIconYoutube = document.querySelector('.headerIconYoutube');
 function createMarkupIconYoutube() {
   return `<a class="list-link-icons menu-list-link-icons" href="">
             <svg class="list-item-icon" width="20" height="20">
-              <use href="${icons}#icon-youtube"></use>
+              <use href="${iconYoutube}"></use>
             </svg>
           </a>`;
 }
@@ -44,7 +49,7 @@ const headerBurger = document.querySelector('.headerBurger');
 
 function creareMarkupBurger() {
   return `<svg class="menu-burger-icon" width="34" height="34">
-          <use href="${icons}#icon-menu-burger"></use>
+          <use href="${iconBurger}"></use>
         </svg>`;
 }
 
@@ -57,7 +62,7 @@ function createMarkupFooterIconFacebook() {
   return `<a class="list-link-icons footer-list-link-icons" href="">
                   <svg class="list-item-icon" width="18" height="18">
                     <use
-                      href="${icons}#icon-facebook"
+                      href="${iconFacebook}"
                     ></use>
                   </svg>
                 </a>`;
@@ -72,7 +77,7 @@ function createMarkupfooterIconInstagram() {
   return `<a class="list-link-icons footer-list-link-icons" href="">
                   <svg class="list-item-icon" width="18" height="18">
                     <use
-                      href="${icons}#icon-instagram"
+                      href="${iconInstagram}"
                     ></use>
                   </svg>
                 </a>`;
@@ -88,7 +93,7 @@ function createMarkupFooterIconYoutube() {
   return `<a class="list-link-icons footer-list-link-icons" href="">
                   <svg class="list-item-icon" width="18" height="18">
                     <use
-                      href="${icons}#icon-youtube"
+                      href="${iconYoutube}"
                     ></use>
                   </svg>
                 </a>`;
@@ -101,7 +106,7 @@ const mobileMenuElemClose = document.querySelector('.mobileMenuCloseIcon');
 
 function createMarkupMobileMenuCloseIcon() {
   return `<svg class="mobile-menu-close-icon" width="34" height="34">
-        <use href="${icons}#icon-close"></use>
+        <use href="${iconClose}"></use>
       </svg>`;
 }
 
@@ -115,7 +120,7 @@ const mobileMenuElemFacebook = document.querySelector(
 function createMarkupMobileMenuIconFacebook() {
   return `<a class="mobile-menu-list-link-icons" href="">
           <svg class="mobile-list-item-icon" width="18" height="18">
-            <use href="${icons}#icon-facebook"></use>
+            <use href="${iconFacebook}"></use>
           </svg>
         </a>`;
 }
@@ -130,7 +135,7 @@ const mobileMenuElemInstagram = document.querySelector(
 function createMarkupMobileMenuIconInstagram() {
   return `<a class="mobile-menu-list-link-icons" href="">
           <svg class="mobile-list-item-icon" width="18" height="18">
-            <use href="${icons}#icon-instagram"></use>
+            <use href="${iconInstagram}"></use>
           </svg>
         </a>`;
 }
@@ -143,7 +148,7 @@ const mobileMenuElemYoutube = document.querySelector('.mobileMenuIconYoutube');
 function createMarkupmobileMenuIconYoutube() {
   return `<a class="mobile-menu-list-link-icons" href="">
           <svg class="mobile-list-item-icon" width="18" height="18">
-            <use href="${icons}#icon-youtube"></use>
+            <use href="${iconYoutube}"></use>
           </svg>
         </a>`;
 }
